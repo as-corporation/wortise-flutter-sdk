@@ -1,5 +1,5 @@
 group 'com.wortise.ads.flutter'
-version '1.5.1'
+version '1.6.1'
 
 buildscript {
     ext.kotlin_version = '2.0.20'
@@ -23,6 +23,8 @@ rootProject.allprojects {
         maven { url 'https://maven.wortise.com/artifactory/public' }
         maven { url 'https://android-sdk.is.com/' }
         maven { url 'https://artifact.bytedance.com/repository/pangle' }
+        maven { url 'https://cboost.jfrog.io/artifactory/chartboost-ads/' }
+        maven { url 'https://maven.ogury.co' }
     }
 }
 
@@ -60,6 +62,6 @@ android {
 }
 
 dependencies {
-    api 'com.wortise:android-sdk:1.5.1'
+    api 'com.wortise:android-sdk:1.6.1'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }

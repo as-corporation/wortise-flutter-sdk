@@ -1,3 +1,15 @@
+## 1.6.1
+
+* Wortise SDK updated to version 1.6.1
+
+## 1.6.0
+
+* Wortise SDK updated to version 1.6.0
+
+## 1.5.2
+
+* Wortise SDK updated to version 1.5.2
+
 ## 1.5.1+1
 
 * Fixed small issue

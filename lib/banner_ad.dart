@@ -17,6 +17,12 @@ class BannerAd extends StatefulWidget {
 
   static const CHANNEL_BANNER = "${WortiseSdk.CHANNEL_MAIN}/bannerAd";
 
+  static const AUTO_REFRESH_DEFAULT_TIME = 60 * 1000;
+  static const AUTO_REFRESH_DISABLED     = -1;
+  static const AUTO_REFRESH_MAX_TIME     = 120 * 1000;
+  static const AUTO_REFRESH_MIN_TIME     = 30 * 1000;
+  static const AUTO_REFRESH_UNSPECIFIED  = 0;
+
 
   final AdSize adSize;
 
